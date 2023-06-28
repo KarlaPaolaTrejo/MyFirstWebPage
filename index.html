@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es"> 
+
+<!--Asi es como se escribe un comentario--> 
+    <head>
+        <!--Aplicación de Fuentes con Google Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap" rel="stylesheet">
+        
+        <title>Página de Koala</title> <!--Nombre para la pestaña de la página web-->
+        <meta charset="UTF-8"> <!--Metadatos (información) de la página HTML-->
+        <link href="estilos.css" rel="stylesheet"> <!--Agregar archivo .CSS para aplicarlo a la página-->
+    </head>
+
+    <body>
+        <h1>Hola soy un Koala</h1>
+        <h3>Imagenes de Koala disponibles</h3>
+
+        <!--Colocar una imagen desde una dirección web-->
+        <img src="https://img.freepik.com/fotos-premium/lindo-bebe-koala-habitat-natural-animal-australiano-3d-renderizado-ilustracion-dibujos-animados_691560-4299.jpg?w=2000"
+        <!--Colocar una imagen desde un archivo local de nuestra computadora-->
+        <img src="img/dos.jpg">
+        <img src="img/trees.jpg">
+
+        <!--Crear un enlace externo-->
+        <p>Si quieres ver más imagenes de Koala <a href="https://i.pinimg.com/236x/c7/e6/6a/c7e66ad4fb218a1553231eb38a36f3d9.jpg" target="_blank">da clic a este enlace</a> </p>
+
+        <h3>Lista de koalas</h3>
+        <p>3 Cosas que los koalas <strong>adoran</strong></p> <!--Para resaltar un texto, se utiliza el elemento STRONG-->
+
+        <ol> <!--Lista ordenada (Ordered list)-->
+            <li>Comen</li> <!--Elemento de una lista (List element)-->
+            <li>Duermen</li>
+            <li>Duermen mucho</li>
+        </ol>
+
+        <p>3 Cosas que los koalas <strong>odian</strong></p> 
+        <ul> <!--Lista desordenada (Urnordered list)-->
+            <li>No encontrar donde dormir </li>
+            <li>Los baños</li>
+            <li>Los olores fuertes</li>
+        </ul> 
+
+        <!--Formularios-->
+        <form>
+            <!--Form con botones de radio (botón de selección)-->    
+            <p>¿Qué crées que soy un bebe o un adulto?</p>
+            <label>
+                <input id="bebe" 
+                    type="radio" 
+                    value="bebe" 
+                    name="edadKoala"> bebe
+            </label>
+            <br> <!--Salto de linea-->
+            <label>
+                <input id="Adulto" 
+                    type="radio" 
+                    value="bebe" 
+                    name="edadKoala"> Adulto
+            </label>
+            
+            <!--Form con casillas de verificación--> 
+            <p>¿Qué tipo de personalidad crées que tengo ?</p>
+            <label>
+                <input id="Enojon" 
+                    type="checkbox" 
+                    value="enojon" 
+                    name="personalidad"> Enojón
+            </label>
+            <br>
+            <label>
+                <input id="Jugueton" 
+                    type="checkbox" 
+                    value="juegueton" 
+                    name="personalidad"> Juegueton
+            </label>
+            <br>
+            <label>
+                <input id="Dormilon" 
+                    type="checkbox" 
+                    value="dormilon" 
+                    name="personalidad"> Dormilón
+            </label>
+
+        </form>        
+    </body>
+
+    <footer>
+        <p><small>Esta página fue creada durante el bootcamp de <a href="https://tecnolochicas.mx" target="_blank"> Technolochicas PRO</a></small></p>
+    </footer>
+
+</html>

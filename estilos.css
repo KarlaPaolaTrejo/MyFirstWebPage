@@ -1,0 +1,50 @@
+body{
+background-color:rgb(231, 174, 226); /*Color de fondo*/
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*Configuración de vista de fuentes [Color, tamaño]*/
+
+h3 {
+    color: white;
+    font-size: 25px;
+}
+
+h1, p{
+    color: black;
+    font-size: 35px;
+}
+
+/*Configuración de vista de imagenes [Ancho, 
+                                        alto, 
+                                        estilo de borde, 
+                                        color del borde, 
+                                        margen a la derecha, 
+                                        margen entre imagenes
+                                        padding]*/
+img {
+    width: 350px; 
+    height: 500px;
+    border-style: dotted;
+    color: rgb(204, 2, 245);
+    margin-left: 25px; 
+    margin-bottom: 50px;
+    padding: 20px;
+
+  
+}
+
+/*Configuración de enlace web [Color]*/
+
+a{
+    color: #3c1fe0;
+}
+
+/*Configuración del pie de página */ 
+
+footer{
+    color: rgb(255, 5, 255);
+}
+
+
+
